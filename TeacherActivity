@@ -81,10 +81,10 @@ while True:
        bullet.x=player.x+20
        bullet.y=player.y+24
      
-       #bangle=angle  
+       bangle=angle  
       
   if bulletState=="fired":
-       bullet.x ,bullet.y = newxy(bullet.x, bullet.y, 20 , angle)
+       bullet.x ,bullet.y = newxy(bullet.x, bullet.y, 20 , bangle)
        
         
   #change bullet state back to ready when it moves out
